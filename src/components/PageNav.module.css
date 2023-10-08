@@ -1,0 +1,11 @@
+.nav {
+  @apply flex bg-primary text-secondary text-lg p-3;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.dropdownIcon {
+  @apply h-9 w-9 cursor-pointer md:hidden block;
+  color: #f8fcfb;
+}

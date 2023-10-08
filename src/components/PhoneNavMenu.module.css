@@ -1,0 +1,7 @@
+.responsiveMenu {
+  @apply fixed right-0 h-screen w-2/5 bg-primary text-secondary text-lg transform transition-transform duration-300;
+}
+
+.link {
+  @apply mt-2 ml-5;
+}

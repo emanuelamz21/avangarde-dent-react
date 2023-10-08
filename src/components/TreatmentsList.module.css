@@ -1,0 +1,13 @@
+.background {
+  background-color: #f8fcfb;
+  padding-top: 30px;
+}
+
+.treatmentsContainer {
+  @apply bg-primary;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  grid-template-rows: repeat(2, auto);
+  width: 80%;
+  margin: 4rem auto 0;
+}

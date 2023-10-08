@@ -1,0 +1,32 @@
+.treatmentContainer {
+  background-color: #fdfdfd;
+  margin: 2rem auto;
+  width: 20vw;
+}
+
+.treatmentContainer h4 {
+  @apply text-3xl;
+  font-family: "Roboto", sans-serif;
+  color: #2e3538;
+  font-weight: bold;
+}
+
+.description {
+  @apply text-xl;
+  font-family: "Roboto", sans-serif;
+  color: #7f8182;
+}
+
+.buttonText {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .treatmentContainer h4 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}

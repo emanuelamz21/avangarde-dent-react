@@ -1,0 +1,9 @@
+.linkList {
+  @apply ml-10 flex gap-8;
+  list-style: none;
+}
+
+.urls {
+  align-items: center;
+  display: flex;
+}

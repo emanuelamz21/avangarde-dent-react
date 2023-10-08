@@ -1,0 +1,129 @@
+.background {
+  height: calc(100vh - 80px);
+  background: linear-gradient(
+    to right,
+    #f8fcfb 0%,
+    #f8fcfb 60%,
+    #20c5af 60%,
+    #20c5af 100%
+  );
+}
+
+.textContainer {
+  @apply ml-56 pt-48;
+  width: 35%;
+}
+
+.header {
+  @apply text-7xl;
+  font-family: "Roboto", sans-serif;
+  color: #2e3538;
+  font-weight: bold;
+}
+
+.paragraph {
+  @apply text-xl;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  color: #7f8182;
+}
+
+.contactButton {
+  @apply bg-accent w-44 h-12;
+  font-family: "Roboto", sans-serif;
+  border-radius: 18px;
+  color: #f8fcfb;
+  font-size: 1.2rem;
+}
+
+.dentistPhoto {
+  @apply absolute;
+  margin-left: 47%;
+  width: 40%;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    background: linear-gradient(to right, #f8fcfb 0%, #f8fcfb 100%);
+    height: fit-content;
+  }
+
+  .textContainer {
+    @apply ml-0 pt-10;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .header {
+    @apply text-4xl;
+    font-weight: bold;
+  }
+
+  .paragraph {
+    @apply text-xl;
+    width: 100%;
+  }
+
+  .dentistPhotoDiv {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .dentistPhoto {
+    @apply pt-10 relative;
+    width: 70%;
+    bottom: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .background {
+    background: linear-gradient(to right, #f8fcfb 0%, #f8fcfb 100%);
+    height: fit-content;
+  }
+
+  .textContainer {
+    @apply ml-0 pt-10;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .header {
+    @apply text-6xl;
+    font-weight: bold;
+  }
+
+  .paragraph {
+    @apply text-xl;
+    width: 100%;
+  }
+
+  .dentistPhotoDiv {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .dentistPhoto {
+    @apply pt-10 relative;
+    width: 70%;
+    bottom: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .textContainer {
+    @apply ml-36 pt-32;
+    width: 50%;
+  }
+
+  .header {
+    font-size: 3.5rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+  }
+}
