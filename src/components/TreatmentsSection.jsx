@@ -1,6 +1,6 @@
 import SectionInformation from "./SectionInformation";
 import TreatmentPreview from "./TreatmentPreview";
-import styles from "./TreatmentsList.module.css";
+import styles from "./TreatmentsSection.module.css";
 
 const info = {
   header: "Cele mai Calitative Tratamente din Romania",

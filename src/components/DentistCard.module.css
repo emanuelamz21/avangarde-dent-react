@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.dentistCard {
+  width: 20vw;
+}
+
+.dentistCard img {
+  margin: 0 auto;
+  width: 18vw;
+  border-radius: 50%;
+}
+
+.dentistCard h3 {
+  @apply text-4xl font-bold;
+  color: #2e3538;
+  text-align: center;
+}
+
+.dentistCard p {
+  @apply text-base font-normal;
+  color: #7f8182;
+}
+
+@media (max-width: 768px) {
+  .dentistCard {
+    @apply text-2xl font-bold;
+    @apply mb-10;
+    width: 60vw;
+  }
+
+  .dentistCard img {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .dentistCard {
+    @apply mb-10;
+    width: 60vw;
+  }
+
+  .dentistCard img {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .dentistCard {
+    width: 20vw;
+  }
+}

@@ -1,11 +1,13 @@
+import HeritageMainSection from "../components/HeritageMainSection";
 import HeroSection from "../components/HeroSection";
-import TreatmentsList from "../components/TreatmentsList";
+import TreatmentsSection from "../components/TreatmentsSection";
 
 function Homepage() {
   return (
     <>
       <HeroSection />
-      <TreatmentsList />
+      <TreatmentsSection />
+      <HeritageMainSection />
     </>
   );
 }
