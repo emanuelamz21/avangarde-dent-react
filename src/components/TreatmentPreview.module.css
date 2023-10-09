@@ -1,32 +1,95 @@
 .treatmentContainer {
   background-color: #fdfdfd;
-  margin: 2rem auto;
-  width: 20vw;
+  border-radius: 2.7rem;
+  width: 23vw;
+  margin: 0 auto;
+}
+
+.textContainer {
+  @apply p-6;
+}
+
+.svgIcon {
+  @apply mb-3;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
 }
 
 .treatmentContainer h4 {
-  @apply text-3xl;
-  font-family: "Roboto", sans-serif;
+  @apply mb-3;
+  display: inline-block;
   color: #2e3538;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+  line-height: normal;
   font-weight: bold;
 }
 
 .description {
-  @apply text-xl;
-  font-family: "Roboto", sans-serif;
+  @apply mb-4;
   color: #7f8182;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
 }
 
 .buttonText {
+  @apply text-xl;
+  color: #20c5af;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #20c5af;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .treatmentContainer {
+    padding: 0;
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .treatmentContainer {
+    width: 30vw;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .treatmentContainer {
+    border-radius: 1.2rem;
+    width: 20vw;
+  }
+
+  .textContainer {
+    @apply p-2;
+  }
+
+  .svgIcon {
+    @apply mb-2;
+    width: 35px;
+    height: 35px;
+  }
+
   .treatmentContainer h4 {
-    font-size: 2rem;
+    @apply mb-2;
+    font-size: 1rem;
+    line-height: normal;
   }
 
   .description {
-    font-size: 1rem;
-    line-height: 1.25rem;
+    @apply mb-3;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  .buttonText {
+    @apply ml-2;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.7rem;
   }
 }
