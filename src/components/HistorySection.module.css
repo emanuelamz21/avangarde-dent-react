@@ -1,0 +1,59 @@
+.background {
+  background-color: #fdfdfd;
+}
+
+.flexContainer {
+  @apply flex;
+  justify-content: space-between;
+}
+
+.firstSection {
+  @apply bg-primary mt-24;
+  width: 52%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.textContainer {
+  @apply pt-14 pb-14;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.textContainer h3 {
+  @apply text-6xl;
+  color: #fdfdfd;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.textContainer p {
+  @apply text-3xl mt-6;
+  color: #fdfdfd;
+  font-family: "Roboto", sans-serif;
+}
+
+.historyImage {
+  @apply mt-24;
+  width: 32%;
+  vertical-align: top;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .textContainer h3 {
+    @apply text-4xl;
+  }
+
+  .textContainer p {
+    @apply text-lg mt-1;
+  }
+}
