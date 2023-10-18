@@ -4,7 +4,7 @@ function DentistCard() {
   return (
     <div className={styles.dentistCard}>
       <img
-        src="src\assets\1.png"
+        src="public\1.png"
         alt="dentist-photo"
         className={styles.dentistPhoto}
       />
