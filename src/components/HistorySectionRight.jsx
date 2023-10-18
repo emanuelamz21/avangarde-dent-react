@@ -5,7 +5,7 @@ function HistorySectionRight() {
     <div className={styles.background}>
       <div className={styles.flexContainer}>
         <img
-          src="public\poza-cabinet.jpg"
+          src="poza-cabinet.jpg"
           alt="poza-cabinet"
           className={`${styles.historyImage} ${styles.firstImage}`}
         />
@@ -24,7 +24,7 @@ function HistorySectionRight() {
           </div>
         </div>
         <img
-          src="public\poza-cabinet.jpg"
+          src="poza-cabinet.jpg"
           alt="poza-cabinet"
           className={`${styles.historyImage} ${styles.secondImage}`}
         />

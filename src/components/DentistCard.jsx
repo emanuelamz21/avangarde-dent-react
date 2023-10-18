@@ -3,11 +3,7 @@ import styles from "./DentistCard.module.css";
 function DentistCard() {
   return (
     <div className={styles.dentistCard}>
-      <img
-        src="public\1.png"
-        alt="dentist-photo"
-        className={styles.dentistPhoto}
-      />
+      <img src="1.png" alt="dentist-photo" className={styles.dentistPhoto} />
       <h3>Doctor Matei Popescu</h3>
       <br />
       <p>

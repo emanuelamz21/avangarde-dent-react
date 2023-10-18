@@ -29,7 +29,7 @@ function HeroSection() {
         <div className={styles.dentistPhotoDiv}>
           <img
             className={styles.dentistPhoto}
-            src="public\hero-section-dentist.png"
+            src="hero-section-dentist.png"
             alt="dentist"
           />
         </div>

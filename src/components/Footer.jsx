@@ -25,7 +25,7 @@ function Footer() {
           <li>Contact</li>
           <br />
         </ul>
-        <img src="public\logo.png" alt="logo" className={styles.icon} />
+        <img src="logo.png" alt="logo" className={styles.icon} />
       </div>
       <div className={styles.footerContainer}>
         <h3>Contact</h3>
