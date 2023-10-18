@@ -7,6 +7,7 @@ const info = {
   detailsHeader: "Serviciile Cabinetului",
   detailsParagraph:
     "Pentru a menține sănătatea dentară, oferim o gamă largă de servicii.",
+  padding: "pt-32",
 };
 
 function TreatmentsList() {
@@ -17,6 +18,7 @@ function TreatmentsList() {
           header={info.header}
           detailsHeader={info.detailsHeader}
           detailsParagraph={info.detailsParagraph}
+          padding={info.padding}
         />
 
         <div className={styles.treatmentsContainer}>

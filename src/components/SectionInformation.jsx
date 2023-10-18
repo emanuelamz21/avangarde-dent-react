@@ -2,7 +2,7 @@ import styles from "./SectionInformation.module.css";
 
 function SectionInformation(props) {
   return (
-    <div className={styles.informationContainer}>
+    <div className={`${styles.informationContainer} ${props.padding}`}>
       <div className={styles.headerContainer}>
         <h1 className={styles.header}>{props.header}</h1>
         <div className={styles.underline1}></div>

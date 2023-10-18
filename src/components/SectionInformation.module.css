@@ -1,5 +1,5 @@
 .informationContainer {
-  @apply pt-32 flex;
+  @apply flex;
   margin: 0 10%;
   gap: 18%;
 }

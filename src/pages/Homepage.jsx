@@ -1,7 +1,8 @@
-import HeritageMainSection from "../components/HeritageMainSection";
 import HeroSection from "../components/HeroSection";
-import HistorySection from "../components/HistorySection";
+import HeritageMainSection from "../components/HeritageMainSection";
 import TreatmentsSection from "../components/TreatmentsSection";
+import Footer from "../components/Footer";
+import HistorySection from "../components/HistorySection";
 
 function Homepage() {
   return (
@@ -9,7 +10,11 @@ function Homepage() {
       <HeroSection />
       <TreatmentsSection />
       <HeritageMainSection />
-      <HistorySection />
+
+      <div className="flex flex-col">
+        <HistorySection />
+        <Footer />
+      </div>
     </>
   );
 }

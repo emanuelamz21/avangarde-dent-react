@@ -7,6 +7,7 @@ const info = {
   detailsHeader: "Echipa Noastra",
   detailsParagraph:
     "Experiență Profesională și Pasiune pentru Zâmbete Frumoase.",
+  padding: "pt-32",
 };
 
 function HeritageMainSection() {
@@ -16,6 +17,7 @@ function HeritageMainSection() {
         header={info.header}
         detailsHeader={info.detailsHeader}
         detailsParagraph={info.detailsParagraph}
+        padding={info.padding}
       />
 
       <div className={styles.dentistsContainer}>
