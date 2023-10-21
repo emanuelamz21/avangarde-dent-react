@@ -48,7 +48,7 @@
   }
 
   .firstSection {
-    width: 80%;
+    width: 100%;
   }
 
   .textContainer h3 {
@@ -57,7 +57,7 @@
 
   .historyImage {
     float: right;
-    width: 70%;
+    width: 100%;
   }
 }
 

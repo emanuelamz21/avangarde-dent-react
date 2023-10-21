@@ -8,6 +8,7 @@ body {
 
 .dentistCard img {
   margin: 0 auto;
+  margin-bottom: 1rem;
   width: 18vw;
   border-radius: 50%;
 }
