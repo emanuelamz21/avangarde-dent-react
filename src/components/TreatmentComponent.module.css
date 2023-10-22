@@ -1,0 +1,44 @@
+.container {
+  @apply flex items-center justify-center;
+  gap: 10%;
+}
+
+.textContainer {
+  padding: 20px;
+  width: 40%;
+  border-radius: 40px;
+  border: 1px solid #20c5af;
+}
+
+.treatmentImage {
+  width: 37%;
+}
+
+.text {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.underline {
+  @apply bg-primary mb-4;
+  height: 1px;
+  width: 250px;
+}
+
+.text h6 {
+  @apply text-5xl;
+  color: #2e3538;
+  font-family: "Roboto", sans-serif;
+}
+
+.text li {
+  @apply text-2xl mb-2;
+  color: #2e3538;
+  opacity: 80%;
+  font-family: "Roboto", sans-serif;
+  list-style: disc;
+}
+
+.text li::marker {
+  color: #2e3538;
+}

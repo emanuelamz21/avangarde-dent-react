@@ -2,10 +2,6 @@
   background-color: #f8fcfb;
 }
 
-.background {
-  background-color: #f8fcfb;
-}
-
 .dentistsContainer {
   @apply flex;
   width: 70%;

@@ -3,7 +3,7 @@
 }
 
 .contactInformation {
-  @apply flex items-center justify-center gap-72;
+  @apply flex items-center justify-center gap-60;
 }
 
 .contactDetails h3 {
