@@ -1,6 +1,7 @@
 import PageNav from "../components/PageNav";
 import SectionInformation from "../components/SectionInformation";
 import TreatmentComponent from "../components/TreatmentComponent";
+import Footer from "../components/Footer";
 import styles from "./Treatments.module.css";
 
 const info = {
@@ -22,9 +23,11 @@ function Treatments() {
         padding={info.padding}
       />
 
-      <div className={styles.container}>
+      <div className={styles.treatments}>
         <TreatmentComponent />
       </div>
+
+      <Footer />
     </>
   );
 }

@@ -1,44 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8fcfb;
+}
+
+h3 {
+  @apply text-4xl mb-5;
+  color: #2e3538;
+  font-weight: bold;
+}
+
+p {
+  @apply text-2xl;
+  opacity: 0.8;
+  color: #2e3538;
+}
+
 .container {
-  @apply flex items-center justify-center;
-  gap: 10%;
-}
-
-.textContainer {
-  padding: 20px;
-  width: 40%;
-  border-radius: 40px;
-  border: 1px solid #20c5af;
-}
-
-.treatmentImage {
-  width: 37%;
-}
-
-.text {
+  width: 70%;
   margin: 0 auto;
-  width: 90%;
+  @apply mt-16;
 }
 
-.underline {
-  @apply bg-primary mb-4;
-  height: 1px;
-  width: 250px;
-}
-
-.text h6 {
-  @apply text-5xl;
-  color: #2e3538;
-  font-family: "Roboto", sans-serif;
-}
-
-.text li {
-  @apply text-2xl mb-2;
-  color: #2e3538;
-  opacity: 80%;
-  font-family: "Roboto", sans-serif;
-  list-style: disc;
-}
-
-.text li::marker {
-  color: #2e3538;
+.treatmentContainer {
+  @apply pt-10;
 }
