@@ -8,7 +8,7 @@ const info = {
   header: "Tratamentele Avangarde Dent",
   detailsHeader: "Serviciile Cabinetului",
   detailsParagraph:
-    "Toată priceperea, experiența și dăruirea noastră pentru sănătatea orală a pacienților noștri.",
+    " Toată priceperea, experiența și dăruirea noastră pentru sănătatea orală a pacienților noștri și o dantură care să vă facă să zâmbiți.",
   padding: "pt-12 ",
 };
 

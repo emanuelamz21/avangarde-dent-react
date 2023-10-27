@@ -21,6 +21,7 @@ body {
 
 .dentistCard p {
   @apply text-base font-normal;
+  text-align: center;
   color: #7f8182;
 }
 

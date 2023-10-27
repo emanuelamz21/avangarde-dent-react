@@ -3,7 +3,7 @@ import styles from "./TreatmentComponent.module.css";
 function TreatmentComponent() {
   return (
     <div className={styles.container}>
-      <div>
+      {/* <div>
         <p>
           Clinica noastră este un centru de excelență în îngrijirea dentară,
           oferind o gamă variată de servicii pentru a satisface nevoile și
@@ -60,7 +60,7 @@ function TreatmentComponent() {
           confortabil. Suntem aici pentru a vă ajuta să vă mențineți sănătatea
           orală și să vă îmbunătățiți încrederea în propriul zâmbet.
         </p>
-      </div>
+      </div> */}
 
       <div className={styles.treatmentContainer}>
         <h3>Paradontologie</h3>
@@ -96,6 +96,10 @@ function TreatmentComponent() {
             modifică culoarea o perioadă foarte lungă de timp.
           </li>
           <li>
+            Pentru o mai bună rezistență mecanică a restaurărilor se pot aplica
+            pivoti de fibră de sticlă.
+          </li>
+          <li>
             Incrustațiile din ceramică presată sunt o alternativă de lux la
             obturațiile clasice de compozit.
           </li>
@@ -103,7 +107,7 @@ function TreatmentComponent() {
       </div>
 
       <div className={styles.treatmentContainer}>
-        <h3>Coroane și fațete dentare</h3>
+        <h3>Coroane, Fațete dentare și Punți</h3>
         <p>
           <li>
             Pentru lucrările executate în cabinetul nostru folosim ceramică de
@@ -154,9 +158,19 @@ function TreatmentComponent() {
       <div className={styles.treatmentContainer}>
         <h3>Chirurgie dentoalveolară</h3>
         <p>
-          <li>Extracții dentare.</li>
-          <li>Rezecții apicale, îndepărtare chisturi.</li>
-          <li>Regularizări de creastă alveolară.</li>
+          <li>Extracții dentare simple sau extracții de dinți incluși</li>
+          <li>
+            Rezecții apicale, îndepărtare chisturi, frenectomii și
+            vestibuloplastii
+          </li>
+          <li>
+            Regularizări de creastă alveolară pentru o mai bună stabilitate a
+            protezelor.
+          </li>
+          <li>
+            Intervențiile chirurgicale clasice sunt mai ușoare prin utilizarea
+            laserului și a piezotomului.
+          </li>
         </p>
       </div>
 

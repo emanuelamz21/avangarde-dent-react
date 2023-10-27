@@ -1,7 +1,39 @@
-import DentistCard from "../components/DentistCard";
 import PageNav from "../components/PageNav";
 import Footer from "../components/Footer";
 import styles from "./Heritage.module.css";
+import DentistCard from "../components/DentistCard";
+
+const dentist1 = {
+  numeDentist: "Dr. Magdalena Mironiuc Cureu",
+  pDentistLung:
+    "Experiența de 17 ani ca și cadru didactic la Catedra de Parodontologie a Facultății de Medicină Dentară, UMF `Carol Davila` București, prin lucrările științifice elaborate și activitatea didactică cu studenții, a fost benefică pentru perfecționarea cunoștințelor, menținerea pasului cu cercetările științifice și păstrarea contactului cu generațiile tinere.",
+  pDentistScurt:
+    "Doctor în Științe Medicale, cu teza de doctorat în Parodontologie, Medic primar în Stomatologie Generală, cu supraspecializare în Parodontologie și Medic Specialist în Chirurgie Dento-Alveolară.",
+};
+
+const dentist2 = {
+  numeDentist: "Dr. Calin Ioan Costache",
+  pDentistLung:
+    "El este angajat în dezvoltare profesională continuă, participând la cursuri de Reabilitare Orală, Estetică Dentară, Implantologie și Terapie Laser, el oferă tratamente avansate și personalizate. Cu accent pe satisfacția pacienților, este o alegere de încredere pentru servicii stomatologice de înaltă calitate.",
+  pDentistScurt:
+    "Dr. Calin Ioan-Costache, Medic Specialist în Stomatologie Generală, aduce o abordare blândă și prietenoasă la tratamentelor dentare. Atitudinea sa face ca vizitele la cabinetul său să fie lipsite de stres.",
+};
+
+const dentist3 = {
+  numeDentist: "Asistenta Mihaela Cristina Oprea",
+  pDentistScurt:
+    "Mihaela aduce o experiență de peste doua decenii în asistența stomatologică in echipa noastră. Cu abilitățile și experiența sa, contribuie la desfășurarea eficientă a procedurilor stomatologice și la oferirea unei îngrijiri de calitate pacienților noștri. Ea se remarcă prin abilitatea sa de a comunica eficient cu pacienții și de a le oferi sprijin emoțional, fiind mereu atentă la nevoile și preocupările lor.",
+  pDentistLung:
+    "Pe lângă experiența sa, Mihaela are o sete constantă de cunoaștere și educație continuă în domeniul stomatologiei. Este la curent cu cele mai recente tehnologii și proceduri stomatologice pentru a asigura că pacienții noștri beneficiază de cele mai bune servicii posibile",
+};
+
+const dentist4 = {
+  numeDentist: "Asistenta Madalina Elena Dumitru",
+  pDentistScurt:
+    "Mihaela aduce o experiență de peste doua decenii în asistența stomatologică in echipa noastră. Cu abilitățile și experiența sa, contribuie la desfășurarea eficientă a procedurilor stomatologice și la oferirea unei îngrijiri de calitate pacienților noștri. Ea se remarcă prin abilitatea sa de a comunica eficient cu pacienții și de a le oferi sprijin emoțional, fiind mereu atentă la nevoile și preocupările lor.",
+  pDentistLung:
+    "Pentru a-și îmbunătăți cunoștințele în medicină, Madalina a ales să lucreze ca voluntar pe o ambulanță, unde a învățat aspecte esențiale despre îngrijirea medicală de urgență. Cu entuziasmul și dorința ei de a se dezvolta, Madalina este o resursă valoroasă în echipa noastră și o viitoare expertă în asistența stomatologică.",
+};
 
 function Heritage() {
   return (
@@ -34,9 +66,16 @@ function Heritage() {
       </div>
 
       <div className={styles.dentistsContainer}>
-        <DentistCard />
-        <DentistCard />
-        <DentistCard />
+        <DentistCard
+          numeDentist={dentist1.numeDentist}
+          pDentistScurt={dentist1.pDentistScurt}
+          pDentistLung={dentist1.pDentistLung}
+        />
+        <DentistCard
+          numeDentist={dentist2.numeDentist}
+          pDentistScurt={dentist2.pDentistScurt}
+          pDentistLung={dentist2.pDentistLung}
+        />
       </div>
 
       <div className={styles.textContainer}>
@@ -54,45 +93,16 @@ function Heritage() {
       </div>
 
       <div className={styles.mainDentistSection}>
-        <DentistCard />
-
-        <div className={styles.dentistText}>
-          <p>
-            <h3>Experiență Bogată: </h3>
-            <br />
-            Cu mai mult de un deceniu de experiență în asistența stomatologică,
-            Elena aduce o expertiză valoroasă în desfășurarea eficientă a
-            procedurilor stomatologice.
-          </p>
-          <br />
-          <p>
-            <h3>Empatie și Atentie:</h3>
-            <br />
-            Elena este cunoscută pentru capacitatea sa de a comunica eficient cu
-            pacienții și de a le oferi suport emoțional în timpul tratamentelor.
-            Ea este mereu atentă la nevoile și preocupările pacienților și face
-            tot posibilul pentru a le oferi confort și liniște.
-          </p>
-          <br />
-          <p>
-            <h3>Calificare Tehnică:</h3>
-            <br />
-            Elena Mihai este bine pregătită în toate aspectele asistenței
-            stomatologice, de la pregătirea echipamentului la asistența
-            medicilor în timpul procedurilor. Ea se asigură că totul este în
-            ordine pentru ca medicii să poată oferi cea mai bună îngrijire
-            posibilă.
-          </p>
-          <br />
-          <p>
-            <h3>Educație Continuă:</h3>
-            <br />
-            Elena este un adept al învățării continue și rămâne mereu la curent
-            cu cele mai noi tehnologii și proceduri din domeniul stomatologiei.
-            Această sete de cunoaștere o ajută să ofere pacienților noștri cele
-            mai bune servicii posibile.
-          </p>
-        </div>
+        <DentistCard
+          numeDentist={dentist3.numeDentist}
+          pDentistScurt={dentist3.pDentistScurt}
+          pDentistLung={dentist3.pDentistLung}
+        />
+        <DentistCard
+          numeDentist={dentist4.numeDentist}
+          pDentistScurt={dentist4.pDentistScurt}
+          pDentistLung={dentist4.pDentistLung}
+        />
       </div>
 
       <Footer />

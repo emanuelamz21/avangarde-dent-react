@@ -25,12 +25,16 @@ function HistorySectionLeft() {
             <h3>Inceputul Avangarde Dent </h3>
             <br />
             <p>
-              Cu o istorie bogată și o tradiție îndelungată în îngrijirea
-              dentară de înaltă calitate, Avangarde Dent este o clinică dentară
-              de încredere și respectată în comunitatea noastră. Fondată acum
-              mai bine de două decenii, povestea noastră a început cu un
-              angajament ferm de a oferi servicii stomatologice de excepție și o
-              atenție personalizată fiecărui pacient.
+              Cabinetul nostru dentar, fondat în anul 2002, este un etalon al
+              profesionalismului și excelenței în îngrijirea dentară. Încă de la
+              început, am investit și în aparatura de radiologie dentară pentru
+              a asigura confortul pacientului și precizia diagnosticului, iar
+              dotarea noastră tehnică a ținut mereu pasul cu ultimele tehnologii
+              apărute în stomatologie. De-a lungul anilor, ne-am angajat să ne
+              perfecționăm constant tehnicile de lucru pentru a oferi
+              pacienților noștri cele mai bune servicii. Suntem în permanență la
+              curent cu noile inovații și le implementăm în practică pentru
+              rezultate de top.
             </p>
           </div>
         </div>
