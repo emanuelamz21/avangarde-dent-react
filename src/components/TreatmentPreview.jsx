@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./TreatmentPreview.module.css";
 
 function TreatmentPreview(props) {
@@ -36,7 +37,9 @@ function TreatmentPreview(props) {
 
         <p className={styles.description}>{props.treatmentDescription}</p>
         <button>
-          <p className={styles.buttonText}>Învăță mai mult</p>
+          <p className={styles.buttonText}>
+            <NavLink to={"/treatments"}>Învăță mai mult</NavLink>
+          </p>
         </button>
       </div>
     </div>

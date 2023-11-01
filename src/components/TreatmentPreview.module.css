@@ -10,33 +10,27 @@
 }
 
 .svgIcon {
-  @apply mb-3;
+  @apply mb-3 inline-block;
   width: 60px;
   height: 60px;
-  display: inline-block;
 }
 
 .treatmentContainer h4 {
-  @apply mb-3;
-  display: inline-block;
+  @apply mb-3 inline-block font-bold;
   color: #2e3538;
-  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   line-height: normal;
-  font-weight: bold;
 }
 
 .description {
   @apply mb-4;
   color: #7f8182;
-  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 
 .buttonText {
   @apply text-xl;
   color: #20c5af;
-  font-family: "Roboto", sans-serif;
   border: 2px solid #20c5af;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -45,8 +39,8 @@
 
 @media (max-width: 768px) {
   .treatmentContainer {
-    padding: 0;
     width: 80vw;
+    padding: 0;
     margin: 0 auto;
   }
 }
