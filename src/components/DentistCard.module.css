@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .dentistCard {
   width: 20vw;
 }
@@ -21,8 +17,8 @@ body {
 
 .dentistCard p {
   @apply text-base font-normal;
-  text-align: center;
   color: #7f8182;
+  text-align: center;
 }
 
 @media (max-width: 768px) {

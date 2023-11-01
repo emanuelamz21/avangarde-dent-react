@@ -3,18 +3,16 @@
 }
 
 .dentistsContainer {
-  @apply flex;
+  @apply flex pt-24 justify-around;
   width: 70%;
-  padding-top: 100px;
   margin: 0 auto;
   background-color: #f8fcfb;
-  justify-content: space-around;
 }
 
 @media (max-width: 768px) {
   .dentistsContainer {
+    @apply pt-12;
     width: 100%;
-    padding-top: 50px;
     flex-direction: column;
     align-items: center;
   }

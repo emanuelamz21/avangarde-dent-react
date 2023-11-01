@@ -1,14 +1,10 @@
 .container {
-  @apply mr-2 border-2 border-secondary rounded-lg;
-  position: relative;
-  text-align: center;
+  @apply mr-2 border-2 border-secondary rounded-lg relative text-center;
   min-width: 120px;
   max-width: 130px;
 }
 
 .dropdown {
-  @apply text-black mr-10;
-  text-align: center;
+  @apply text-black mr-10 absolute text-center;
   min-width: 120px;
-  position: absolute;
 }

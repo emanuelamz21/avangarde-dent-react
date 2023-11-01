@@ -7,15 +7,12 @@
 }
 
 .contactDetails h3 {
-  @apply text-3xl;
-  font-family: "Roboto", sans-serif;
+  @apply text-3xl font-bold;
   color: #2e3538;
-  font-weight: bold;
 }
 
 .contactDetails p {
   @apply text-xl;
-  font-family: "Roboto", sans-serif;
   color: #707070;
 }
 
@@ -39,9 +36,6 @@
     width: 80%;
     height: 250px;
   }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {

@@ -3,8 +3,7 @@
 }
 
 .flexContainer {
-  @apply flex;
-  justify-content: space-between;
+  @apply flex justify-between;
 }
 
 .firstSection {
@@ -22,16 +21,13 @@
 }
 
 .textContainer h3 {
-  @apply text-6xl;
+  @apply text-6xl font-bold;
   color: #fdfdfd;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
 }
 
 .textContainer p {
   @apply text-2xl mt-6;
   color: #fdfdfd;
-  font-family: "Roboto", sans-serif;
 }
 
 .historyImage {

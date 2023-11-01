@@ -1,6 +1,6 @@
 import styles from "./TreatmentPreview.module.css";
 
-function TreatmentPreview() {
+function TreatmentPreview(props) {
   return (
     <div className={styles.treatmentContainer}>
       <div className={styles.textContainer}>
@@ -32,12 +32,9 @@ function TreatmentPreview() {
             />
           </g>
         </svg>
-        <h4>Grija Dentara</h4>
+        <h4>{props.title}</h4>
 
-        <p className={styles.description}>
-          Protezele dentare trebuie îngrijite astfel încât bacteriile și placa
-          să nu se acumuleze și să cauzeze probleme de sănătate orală.
-        </p>
+        <p className={styles.description}>{props.treatmentDescription}</p>
         <button>
           <p className={styles.buttonText}>Învăță mai mult</p>
         </button>

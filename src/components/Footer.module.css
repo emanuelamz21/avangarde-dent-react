@@ -2,13 +2,8 @@
   @apply bg-primary flex justify-center gap-60 pt-10 pb-10;
 }
 
-.footerContainer {
-  text-align: center;
-}
-
 .footerContainer h3 {
-  @apply text-4xl mb-5;
-  font-weight: bold;
+  @apply text-4xl mb-5 font-bold;
   color: #f8fcfb;
 }
 
@@ -24,6 +19,10 @@
 .footerContainer p {
   @apply text-sm;
   color: #f8fcfb;
+}
+
+.footerContainer {
+  text-align: center;
 }
 
 .icon {

@@ -4,6 +4,5 @@
 }
 
 .urls {
-  align-items: center;
-  display: flex;
+  @apply flex items-center;
 }

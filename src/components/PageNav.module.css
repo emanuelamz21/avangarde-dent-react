@@ -1,8 +1,5 @@
 .nav {
-  @apply flex bg-primary text-secondary text-lg p-3;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Roboto", sans-serif;
+  @apply flex bg-primary justify-between items-center text-secondary text-lg p-3;
 }
 
 .dropdownIcon {

@@ -28,6 +28,7 @@ function Footer() {
         </ul>
         <p>© Avangarde Dent 2023. Toate drepturile rezervate.</p>
       </div>
+
       <div className={styles.footerContainer}>
         <h3>Echipa Avangarde Dent</h3>
         <ul>
@@ -51,17 +52,22 @@ function Footer() {
         </ul>
         <img src="logo.png" alt="logo" className={styles.icon} />
       </div>
+
       <div className={styles.footerContainer}>
         <h3>Contact</h3>
         <ul>
           <li>Telefon</li>
-          <li>+40 727 286 080</li>
-          <li>+40 272 981 082</li>
+          <li>
+            <a href="tel:0212244690">021.224.46.90</a>
+          </li>
           <br />
           <li>Mail:</li>
-          <li>avangarde.dent@gmail.com</li>
+          <li>
+            <a href="mailto:cabinetdrcureu@gmail.com">
+              cabinetdrcureu@gmail.com
+            </a>
+          </li>
         </ul>
-        <p>Termeni si Conditii &nbsp Politica Cookies</p>
       </div>
     </div>
   );

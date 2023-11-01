@@ -5,11 +5,8 @@
 }
 
 .header {
-  @apply text-7xl;
-  margin-bottom: 10.5px;
-  font-family: "Roboto", sans-serif;
+  @apply text-7xl mb-3 font-bold;
   color: #2e3538;
-  font-weight: bold;
 }
 
 .detailsHeader::before {
@@ -19,16 +16,12 @@
 }
 
 .detailsHeader {
-  @apply text-3xl;
-  margin-bottom: 10.5px;
-  font-family: "Roboto", sans-serif;
+  @apply text-3xl mb-3;
   color: #2e3538;
 }
 
 .detailsParagraph {
-  @apply text-xl;
-  margin-top: 10.5px;
-  font-family: "Roboto", sans-serif;
+  @apply text-xl mt-3;
   color: #7f8182;
 }
 
@@ -46,8 +39,7 @@
 
 @media screen and (max-width: 1024px) {
   .informationContainer {
-    @apply inline;
-    margin-left: 10px;
+    @apply inline ml-3;
   }
 
   .headerContainer {
@@ -72,9 +64,9 @@
   }
 
   .detailsContainer {
+    @apply text-center;
     max-width: fit-content;
     margin-right: 20px;
-    text-align: right;
   }
 
   .underline1 {

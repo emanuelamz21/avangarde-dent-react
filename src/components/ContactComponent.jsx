@@ -18,16 +18,11 @@ function ContactComponent() {
             Bulevardul Ion Mihălache 140, Bloc A, Scara B, Apartament 22
             București
           </p>
-          <br></br>
-          {/* <h3>Program</h3>
-          <p>Luni - Vineri: 10:00 - 18:00</p>
-          <p>Sâmbătă: 10:00 - 14:00</p>
-          <p>Duminică: Închis</p>
-          <br></br> */}
+          <br />
           <h3>Contact</h3>
           <p>Telefon: 021.224.46.90</p>
           <p>Email: cabinetdrcureu@gmail.com</p>
-          <br></br>
+          <br />
         </div>
       </div>
     </div>
