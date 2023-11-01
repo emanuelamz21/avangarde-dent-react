@@ -9,6 +9,12 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  @apply text-xl mb-2;
+  color: #2e3538;
+  font-weight: bold;
+}
+
 p {
   @apply text-2xl;
   opacity: 0.8;
@@ -16,11 +22,35 @@ p {
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   @apply mt-16;
 }
 
+.tabs {
+  @apply flex justify-between;
+  gap: 30px;
+}
+
+h4 ::hover {
+  cursor: pointer;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
 .treatmentContainer {
   @apply pt-10;
+}
+
+.active {
+  border-bottom: 1px solid #20c5af;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs {
+    @apply flex-col;
+    align-items: center;
+  }
 }

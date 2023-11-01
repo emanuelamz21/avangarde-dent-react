@@ -16,9 +16,9 @@ function PageNav() {
       <nav className={styles.nav}>
         <NavMenu />
 
-        <div className="max-md:hidden">
+        {/* <div className="max-md:hidden">
           <LanguageSelector />
-        </div>
+        </div> */}
 
         <svg
           className={styles.dropdownIcon}

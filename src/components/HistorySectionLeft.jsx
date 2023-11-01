@@ -39,7 +39,7 @@ function HistorySectionLeft() {
           </div>
         </div>
         <img
-          src="poza-cabinet.jpg"
+          src="poza-history-left.jpg"
           alt="poza-cabinet"
           className={styles.historyImage}
         />

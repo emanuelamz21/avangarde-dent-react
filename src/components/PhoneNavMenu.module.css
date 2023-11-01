@@ -1,5 +1,6 @@
 .responsiveMenu {
   @apply fixed right-0 h-screen w-2/5 bg-primary text-secondary text-lg transform transition-transform duration-300;
+  z-index: 9999999;
 }
 
 .link {
