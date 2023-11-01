@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./HeroSection.module.css";
 import PageNav from "./PageNav";
 
@@ -25,7 +26,9 @@ function HeroSection() {
           </p>
           <br />
           <br />
-          <button className={styles.contactButton}>Contactează-ne</button>
+          <button className={styles.contactButton}>
+            <NavLink to="/contact">Contactează-ne</NavLink>
+          </button>
         </div>
 
         <div className={styles.dentistPhotoDiv}>

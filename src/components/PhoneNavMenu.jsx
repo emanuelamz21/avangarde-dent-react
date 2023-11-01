@@ -31,6 +31,9 @@ function PhoneNavMenu(props) {
           <li className={styles.link}>
             <NavLink to="/contact">Contact</NavLink>
           </li>
+          {/* <li>
+            <LanguageSelector />
+          </li> */}
         </ul>
       </div>
     </>
