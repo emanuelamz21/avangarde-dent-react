@@ -17,7 +17,7 @@ function PageNav() {
         <NavMenu />
 
         {/* <div className="max-md:hidden">
-          <LanguageSelector />
+          <LanguageSelector /> 
         </div> */}
 
         <svg

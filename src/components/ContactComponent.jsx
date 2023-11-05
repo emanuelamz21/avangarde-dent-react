@@ -15,7 +15,7 @@ function ContactComponent() {
         <div className={styles.contactDetails}>
           <h3>Avangarde Dent</h3>
           <p>
-            Bulevardul Ion Mihălache 140, Bloc A, Scara B, Apartament 22
+            Bulevardul Ion Mihalache 140, Bloc A, Scara B, Apartament 22,
             București
           </p>
           <br />

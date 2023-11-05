@@ -38,7 +38,7 @@ function TreatmentPreview(props) {
         <p className={styles.description}>{props.treatmentDescription}</p>
         <button>
           <p className={styles.buttonText}>
-            <NavLink to={"/treatments"}>Învăță mai mult</NavLink>
+            <NavLink to={"/treatments"}>Află mai mult</NavLink>
           </p>
         </button>
       </div>

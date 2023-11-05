@@ -82,8 +82,8 @@ function TreatmentComponent() {
             <p>
               <li>
                 Folosim materiale compozite cu nanoumplutura ceramică care au
-                transluciditatea dinților naturali, rezistență mare și care nu-
-                și modifică culoarea o perioadă foarte lungă de timp.
+                transluciditatea dinților naturali, rezistență mare și care
+                nu-și modifică culoarea o perioadă foarte lungă de timp.
               </li>
               <li>
                 Pentru o mai bună rezistență mecanică a restaurărilor se pot
@@ -109,6 +109,11 @@ function TreatmentComponent() {
               <li>
                 Puteți alege ceramică integrală, ceramică pe zirconiu, total
                 zirconiu sau lucrări metalo-ceramice.
+              </li>
+              <li>
+                Pentru obținerea unor lucrări foarte precise, se folosește
+                tehnologie digitală: prin scanare intraorala în cabinet,
+                printare 3D și tehnologia CAD-CAM.
               </li>
               <li>
                 Când nu doriți implanturi dentare, puteți opta pentru o proteză
@@ -146,7 +151,7 @@ function TreatmentComponent() {
               <li>
                 Lucrările provizorii aplicate în aceeași ședință cu
                 implanturile, acolo unde este posibil, vă asigură o estetică
-                corespunzătoare și posibilitatea masticării în perioada de
+                corespunzătoare și posibilitatea masticației în perioada de
                 integrare a implanturilor, până la lucrările finale.
               </li>
             </p>
@@ -169,6 +174,10 @@ function TreatmentComponent() {
                 Intervențiile chirurgicale clasice sunt mai ușoare prin
                 utilizarea laserului și a piezotomului.
               </li>
+              <li>
+                Folosim tehnicile PRF pentru a îmbunătăți vindecarea după
+                intervențiile chirurgicale.
+              </li>
             </p>
           </div>
         )}
@@ -184,7 +193,7 @@ function TreatmentComponent() {
               <li>
                 Profilaxia la copii prin controale periodice, instrucțiuni de
                 periaj dentar, fluorizări și sigilări pregătesc un adult cu o
-                denticie sănătoasă.
+                dentiție sănătoasă.
               </li>
               <li>
                 Utilizarea laserului în procedura de albire crește eficiența și

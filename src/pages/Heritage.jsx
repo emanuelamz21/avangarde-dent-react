@@ -18,7 +18,7 @@ const dentist2 = {
     "El este angajat în dezvoltare profesională continuă, participând la cursuri de Reabilitare Orală, Estetică Dentară, Implantologie și Terapie Laser, el oferă tratamente avansate și personalizate. Cu accent pe satisfacția pacienților, este o alegere de încredere pentru servicii stomatologice de înaltă calitate.",
   pDentistScurt:
     "Dr. Calin Ioan-Costache, Medic Specialist în Stomatologie Generală, aduce o abordare blândă și prietenoasă la tratamentelor dentare. Atitudinea sa face ca vizitele la cabinetul său să fie lipsite de stres.",
-  poza: "poza-magdalena.png",
+  poza: "doctor-calin.jpg",
 };
 
 const dentist3 = {
@@ -27,16 +27,16 @@ const dentist3 = {
     "Mihaela aduce o experiență de peste doua decenii în asistența stomatologică in echipa noastră. Cu abilitățile și experiența sa, contribuie la desfășurarea eficientă a procedurilor stomatologice și la oferirea unei îngrijiri de calitate pacienților noștri. Ea se remarcă prin abilitatea sa de a comunica eficient cu pacienții și de a le oferi sprijin emoțional, fiind mereu atentă la nevoile și preocupările lor.",
   pDentistLung:
     "Pe lângă experiența sa, Mihaela are o sete constantă de cunoaștere și educație continuă în domeniul stomatologiei. Este la curent cu cele mai recente tehnologii și proceduri stomatologice pentru a asigura că pacienții noștri beneficiază de cele mai bune servicii posibile",
-  poza: "poza-magdalena.png",
+  poza: "mihaela-asistenta.jpg",
 };
 
 const dentist4 = {
   numeDentist: "Asistenta Madalina Elena Dumitru",
   pDentistScurt:
-    "Mihaela aduce o experiență de peste doua decenii în asistența stomatologică in echipa noastră. Cu abilitățile și experiența sa, contribuie la desfășurarea eficientă a procedurilor stomatologice și la oferirea unei îngrijiri de calitate pacienților noștri. Ea se remarcă prin abilitatea sa de a comunica eficient cu pacienții și de a le oferi sprijin emoțional, fiind mereu atentă la nevoile și preocupările lor.",
+    "Madalina Elena este o asistentă debutantă în echipa noastră, iar pasiunea și dorința ei de a învăța sunt evidente în fiecare zi. Deși la începutul carierei sale, Madalina Elena este extrem de ambițioasă și dornică să se dezvolte în domeniul stomatologiei. A absolvit Facultatea de Moașe și Asistențe Medicale, iar determinarea sa de a deveni o asistentă stomatologică de succes o ghidează în fiecare acțiune.",
   pDentistLung:
     "Pentru a-și îmbunătăți cunoștințele în medicină, Madalina a ales să lucreze ca voluntar pe o ambulanță, unde a învățat aspecte esențiale despre îngrijirea medicală de urgență. Cu entuziasmul și dorința ei de a se dezvolta, Madalina este o resursă valoroasă în echipa noastră și o viitoare expertă în asistența stomatologică.",
-  poza: "poza-magdalena.png",
+  poza: "madalina-asistent.jpg",
 };
 
 function Heritage() {
@@ -48,24 +48,9 @@ function Heritage() {
           Echipa noastră din cadrul cabinetului dentar este alcătuită dintr-un
           grup de profesioniști dedicați și extrem de experimentați, care au
           adunat o bogată experiență în domeniul stomatologiei de-a lungul
-          anilor. Cu trei medici stomatologi și o asistentă cu experiență,
+          anilor. Cu doi medici stomatologi alaturi de asistente cu experiență,
           suntem aici pentru a vă oferi cea mai înaltă calitate în îngrijirea
           orală și pentru a vă ajuta să zâmbiți cu încredere.
-        </p>
-        <br />
-        <p>
-          Fiecare membru al echipei noastre aduce cu sine un nivel ridicat de
-          competență, cunoștințe actualizate și o pasiune profundă pentru
-          servirea pacienților. Suntem mândri să oferim tratamente dentare
-          personalizate, îmbunătățind sănătatea orală și estetica zâmbetului
-          dumneavoastră cu cele mai noi tehnologii și metode disponibile în
-          stomatologie.
-        </p>
-        <br />
-        <p>
-          Pregătiți-vă să fiți în mâini sigure și să experimentați cea mai bună
-          îngrijire stomatologică de la echipa noastră dedicată și
-          profesionistă.
         </p>
       </div>
 
@@ -86,16 +71,14 @@ function Heritage() {
 
       <div className={styles.textContainer}>
         <p>
-          Elena Mihai este inima și sufletul cabinetului nostru stomatologic. Cu
-          o carieră dedicată îngrijirii pacienților și o experiență bogată de
-          peste 12 ani în domeniul asistenței stomatologice, Elena este un
-          membru esențial al echipei noastre.
+          Fiecare membru al echipei noastre aduce cu sine un nivel ridicat de
+          competență, cunoștințe actualizate și o pasiune profundă pentru
+          servirea pacienților. Suntem mândri să oferim tratamente dentare
+          personalizate, îmbunătățind sănătatea orală și estetica zâmbetului
+          dumneavoastră cu cele mai noi tehnologii și metode disponibile în
+          stomatologie.
         </p>
         <br />
-        <p>
-          Cu un zâmbet cald și o abordare atentă, Elena face ca fiecare vizită
-          la cabinetul nostru să fie o experiență plăcută pentru pacienți.
-        </p>
       </div>
 
       <div className={styles.mainDentistSection}>
