@@ -25,7 +25,7 @@ const dentist2 = {
     "El este angajat în dezvoltare profesională continuă, participând la cursuri de Reabilitare Orală, Estetică Dentară, Implantologie și Terapie Laser, el oferă tratamente avansate și personalizate. Cu accent pe satisfacția pacienților, este o alegere de încredere pentru servicii stomatologice de înaltă calitate.",
   pDentistScurt:
     "Dr. Calin Ioan-Costache, Medic Specialist în Stomatologie Generală, aduce o abordare blândă și prietenoasă la tratamentelor dentare. Atitudinea sa face ca vizitele la cabinetul său să fie lipsite de stres.",
-  poza: "doctor-calin.jpg",
+  poza: "doctor-calin.png",
 };
 
 function HeritageMainSection() {

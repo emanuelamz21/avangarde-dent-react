@@ -18,7 +18,7 @@ const dentist2 = {
     "El este angajat în dezvoltare profesională continuă, participând la cursuri de Reabilitare Orală, Estetică Dentară, Implantologie și Terapie Laser, el oferă tratamente avansate și personalizate. Cu accent pe satisfacția pacienților, este o alegere de încredere pentru servicii stomatologice de înaltă calitate.",
   pDentistScurt:
     "Dr. Calin Ioan-Costache, Medic Specialist în Stomatologie Generală, aduce o abordare blândă și prietenoasă la tratamentelor dentare. Atitudinea sa face ca vizitele la cabinetul său să fie lipsite de stres.",
-  poza: "doctor-calin.jpg",
+  poza: "doctor-calin.png",
 };
 
 const dentist3 = {
@@ -27,7 +27,7 @@ const dentist3 = {
     "Mihaela aduce o experiență de peste doua decenii în asistența stomatologică in echipa noastră. Cu abilitățile și experiența sa, contribuie la desfășurarea eficientă a procedurilor stomatologice și la oferirea unei îngrijiri de calitate pacienților noștri. Ea se remarcă prin abilitatea sa de a comunica eficient cu pacienții și de a le oferi sprijin emoțional, fiind mereu atentă la nevoile și preocupările lor.",
   pDentistLung:
     "Pe lângă experiența sa, Mihaela are o sete constantă de cunoaștere și educație continuă în domeniul stomatologiei. Este la curent cu cele mai recente tehnologii și proceduri stomatologice pentru a asigura că pacienții noștri beneficiază de cele mai bune servicii posibile",
-  poza: "mihaela-asistenta.jpg",
+  poza: "asistenta-mihaela.png",
 };
 
 const dentist4 = {
@@ -36,7 +36,7 @@ const dentist4 = {
     "Madalina Elena este o asistentă debutantă în echipa noastră, iar pasiunea și dorința ei de a învăța sunt evidente în fiecare zi. Deși la începutul carierei sale, Madalina Elena este extrem de ambițioasă și dornică să se dezvolte în domeniul stomatologiei. A absolvit Facultatea de Moașe și Asistențe Medicale, iar determinarea sa de a deveni o asistentă stomatologică de succes o ghidează în fiecare acțiune.",
   pDentistLung:
     "Pentru a-și îmbunătăți cunoștințele în medicină, Madalina a ales să lucreze ca voluntar pe o ambulanță, unde a învățat aspecte esențiale despre îngrijirea medicală de urgență. Cu entuziasmul și dorința ei de a se dezvolta, Madalina este o resursă valoroasă în echipa noastră și o viitoare expertă în asistența stomatologică.",
-  poza: "madalina-asistent.jpg",
+  poza: "asistenta-madalina.png",
 };
 
 function Heritage() {
