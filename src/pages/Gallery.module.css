@@ -1,7 +1,7 @@
 .gallery {
   --gap: 16px;
   --num-cols: 4;
-  --row-height: 300px;
+  --row-height: 350px;
 
   box-sizing: border-box;
   padding: var(--gap);

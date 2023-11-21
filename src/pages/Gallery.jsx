@@ -12,16 +12,13 @@ function Gallery() {
       <div className={styles.container}>
         <div className={styles.gallery}>
           <Suspense fallback={<div>Loading...</div>}>
-            <LazyImage src="image1.jpg" alt="image-cabinet" />
-            <LazyImage src="image2.jpg" alt="image-cabinet" />
-            <LazyImage src="image3.jpg" alt="image-cabinet" />
-            <LazyImage src="image4.jpg" alt="image-cabinet" />
-            <LazyImage src="image5.jpg" alt="image-cabinet" />
-            <LazyImage src="image6.jpg" alt="image-cabinet" />
-            <LazyImage src="image7.jpg" alt="image-cabinet" />
-            <LazyImage src="image8.jpg" alt="image-cabinet" />
-            <LazyImage src="image9.jpg" alt="image-cabinet" />
-            <LazyImage src="image10.jpg" alt="image-cabinet" />
+            <LazyImage src="image1.png" alt="image-cabinet" />
+            <LazyImage src="image2.png" alt="image-cabinet" />
+            <LazyImage src="image3.png" alt="image-cabinet" />
+            <LazyImage src="image4.png" alt="image-cabinet" />
+            <LazyImage src="image5.png" alt="image-cabinet" />
+            <LazyImage src="image7.png" alt="image-cabinet" />
+            <LazyImage src="image9.png" alt="image-cabinet" />
           </Suspense>
         </div>
       </div>
